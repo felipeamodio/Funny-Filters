@@ -1,5 +1,10 @@
-import styled from 'styled-components/native';
+import {StyleSheet} from 'react-native';
 
-export const Container = styled.View`
-    flex-grow: 1;
-`;
+export const styles = StyleSheet.create({
+    container: {
+        flexGrow: 1,
+    },
+    camera: {
+        flex: 1,
+    }
+})
